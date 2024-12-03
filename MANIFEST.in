@@ -1,0 +1,7 @@
+include README.md
+
+include LICENSE
+
+recursive-include django_report *.py
+
+include requirements.txt
