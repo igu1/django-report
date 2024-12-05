@@ -10,7 +10,7 @@ setup(
     author_email="eesaard@gmail.com",
     url="https://github.com/igu1/django-report",
     packages=find_packages(),
-    install_requires=["jinja2", "qrcode", 'wkhtmltopdf', 'flask'],
+    install_requires=["jinja2", "qrcode", 'wkhtmltopdf', 'flask', "pillow"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
